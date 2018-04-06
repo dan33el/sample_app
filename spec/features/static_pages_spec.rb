@@ -15,7 +15,6 @@ end
 
 #     it "should have the content 'Help'" do
 #       visit '/static_pages/help'
-#       get static_pages_help_path
 #       expect(page).to have_content('Help')
 #     end
 #   end
