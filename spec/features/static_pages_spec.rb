@@ -42,10 +42,12 @@ describe "About page" do
   end
 
 describe "Contact page" do
+
     it "should have content 'Contact'" do
       visit '/static_pages/contact'
-      expect(page).to have content('Contact')
+      expect(page). to have content('Contact')
     end
+
     it "should have right title" do
       visit 'static_pages/contact'
       expect(page). to have_title("Contact")
