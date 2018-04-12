@@ -46,7 +46,7 @@ describe "Contact page" do
       visit '/static_pages/contact'
       expect(page).to have content('Contact')
     end
-    it  "should have right title" do
+    it "should have right title" do
       visit 'static_pages/contact'
       expect(page). to have_title("Contact")
     end
